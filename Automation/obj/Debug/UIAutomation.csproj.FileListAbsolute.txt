@@ -1,0 +1,29 @@
+E:\Automation\Automation\bin\Debug\Automation.exe.config
+E:\Automation\Automation\bin\Debug\Automation.exe
+E:\Automation\Automation\bin\Debug\Automation.pdb
+E:\Automation\Automation\obj\Debug\UIAutomation.csprojResolveAssemblyReference.cache
+E:\Automation\Automation\obj\Debug\Automation.Master.resources
+E:\Automation\Automation\obj\Debug\Automation.Properties.Resources.resources
+E:\Automation\Automation\obj\Debug\UIAutomation.csproj.GenerateResource.Cache
+E:\Automation\Automation\obj\Debug\Automation.exe
+E:\Automation\Automation\obj\Debug\Automation.pdb
+E:\Automation\Automation\bin\Debug\FastColoredTextBox.dll
+E:\Automation\Automation\bin\Debug\FastColoredTextBox.pdb
+E:\Automation\Automation\bin\Debug\FastColoredTextBox.xml
+E:\Automation\Automation\obj\Debug\Automation.Controls.UnitTestCase.resources
+E:\Automation\Automation\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+E:\Automation\Automation\bin\Debug\ThoughtWorks.Selenium.Core.dll
+E:\Automation\Automation\bin\Debug\WebDriver.dll
+E:\Automation\Automation\bin\Debug\WebDriver.Support.dll
+E:\Automation\Automation\obj\Debug\Automation.Controls.SqlManager.resources
+E:\Automation\Automation\bin\Debug\EntityFramework.dll
+E:\Automation\Automation\bin\Debug\EntityFramework.SqlServer.dll
+E:\Automation\Automation\bin\Debug\System.Data.SQLite.dll
+E:\Automation\Automation\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Automation\Automation\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Automation\Automation\bin\Debug\EntityFramework.xml
+E:\Automation\Automation\bin\Debug\EntityFramework.SqlServer.xml
+E:\Automation\Automation\bin\Debug\System.Data.SQLite.xml
+D:\E drive\Automation\Automation\bin\Debug\Automation.exe.config
+D:\E drive\Automation\Automation\obj\Debug\Automation.exe
+D:\E drive\Automation\Automation\obj\Debug\Automation.pdb
