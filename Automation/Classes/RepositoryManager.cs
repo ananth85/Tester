@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
-    using System.Data;
+using System.Data;
 
 namespace Automation.Classes
 {
@@ -15,6 +15,21 @@ namespace Automation.Classes
         public RepositoryManager(String RepositoryPath)
         {
             DBFilePath = RepositoryPath;
+        }
+        public void InsertNewProject(String ProjectName)
+        {
+            String SqlQuery = "Select * from ScreenRepository where ProjectName ='" + ProjectName + "'";
+            if (GetData(SqlQuery).Rows.Count == 0)
+            {
+                SQLiteConnection conn = new SQLiteConnection("Data Source=" + DBFilePath + ";Version=3;");
+                conn.Open();
+                SQLiteCommand command = new SQLiteCommand("insert into ProjectDetails (ProjectName,Active) values ('" + ProjectName + "','1');", conn);
+                command.ExecuteNonQuery();
+                command = null;
+                conn.Close();
+            }
+            else
+                throw new Exception("Project already exists in the database");
         }
         public void InsertNewScreen(String ScreenName, String FrameProperty)
         {
@@ -54,8 +69,7 @@ namespace Automation.Classes
             else { throw new Exception("Screen already exists " + ScreenRows.Count.ToString() + " times in the database"); }
             conn.Close();
         }
-    
-    internal DataTable GetData(String SqlQuery)
+        internal DataTable GetData(String SqlQuery)
         {
             DataTable DT = new DataTable();
             try
